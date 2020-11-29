@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email List</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="logo.ico"/>
+    <link rel="stylesheet" type="text/css" href="index1.css">
+    <link rel="stylesheet" type="text/css" href="navbar1.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <script type="text/javascript" src="index1.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+    
+</head>
+<style>
+.carousel-item img {
+    width:100%;
+    height:500px;
+  }
+  .card:hover{
+    background-color:#1a1b40 ;
+    color:white;
+    font-weight: bold;
+  }
+  .card .card-body:hover #icon{
+    color:white;
+
+  }
+  
+@media (max-width: 400px)
+{
+  .btninfo{
+    margin:30px;
+
+  }
+  .btn-center{
+    margin-top:15px;
+  }
+  .infoicons{
+    margin-top: -25px;
+    font-size: 10px;
+  }
+  #copy_right_sec{
+    font-size: 15px;
+  }
+  header{
+    width:100%;
+  }
+  header span{
+    font-size: 28px;
+  }
+  
+  #card{
+    margin-left:20px;
+    width:500px;
+    margin-top:20px;
+  }
+
+  #mycarousel .carousel-item {
+    width:100%;
+    
+
+
+  }
+  #mycarousel .carousel-item img{
+    width:100%;
+  }
+  #infoheader{
+    width:100%;
+  }
+  #headericons{
+    justify-content: center;
+    margin-left: 30px;
+
+  }
+
+  .cardgen #genicon
+  {
+    margin-left: 20px;
+  }
+  .cardgen #gencon{
+    margin-left: 70px;
+    color:red;
+  }
+  .cardgen  #num{
+    font-size: 15px;
+  }
+  header a{
+    font-size: 20px;
+  }
+}
+  
+
+  
+</style>
+<body>
+<div class="container-fluid" style="background-color: #1C7EA1" id="infoheade">
+  <div class="row">
+    <div class="col-lg-4 col-12 col-sm-12 col-md-6 mt-2 " id="headericons" style="display: inline-flex;">
+      <span class="info">
+        <a href="#" class="fa fa-phone" style="font-size: 20px; color:black;">+1(850)733-7275</a>
+          | &nbsp;
+        <a href="#" class="fa fa-envelope" style="font-size: 20px; color:black;">&nbsp;Support@prospectleads.com</a>
+      </span>
+          
+    </div>
+    <div class="col-lg-4 col-12 col-md-12 col-sm-12 mt-1 btninfo">
+      <button id="btn"class="btn btn-lg btn-info btn-center" style="color:#2f99a1"><i class="fa fa-thumbs-up" style="color:white;font-size: 20px;">&nbsp;&nbsp;B2B&nbsp;Marketing</i></button>
+    </div>
+    <div class="col-lg-4 col-12 col-sm-12 col-md-4 infoicons" style="display:flex;flex-direction: row;">
+      <a class="fa fa-facebook" style="font-size: 30px;color:black;padding: 10px;"></a>
+      <a class="fa fa-instagram" style="font-size: 30px; color:black;padding: 10px;"></a>
+      <a class="fa fa-twitter" style="font-size: 30px; color:black;padding: 10px;"></a>
+      <a class="fa fa-linkedin" style="font-size: 30px; color:black;padding: 10px;"></a>
+      <a class="fa fa-pinterest" style="font-size: 30px; color:black;padding: 10px;"></a>
+    </div>
+  </div>
+</div>
+<header>
+    
+    <a href="#" class="logo"><span> <img src="logo.ico" class="img img-thumbnail weblogo" style="width:90px;height: 65px;margin-left:-30px;"></span>&nbsp;&nbsp;ProspectLeads</a></span>
+    <div class="toggle-menu active"></div>
+    <nav>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      
+
+      <div class="dropdown mt-3">
+    <button type="button"  class="btn dropdown-toggle" data-toggle="dropdown" style="color:red;font-size: 20px;">
+     Data Services
+    </button>
+    <div class="dropdown-menu">
+      <h5 class="dropdown-header">ProspectLeads-DataServices</h5>
+      <a class="dropdown-item" href="Email-list.html">Email List</a>
+      <a class="dropdown-item" href="#">Email Verification And Validation</a>
+      
+     
+      <a class="dropdown-item" href="#">AppendingServices</a>
+    </div>
+  </div>
+      
+
+      <div class="dropdown mt-3">
+    <button type="button"  class="btn dropdown-toggle" data-toggle="dropdown" style="color:red;font-size: 20px;">
+     Data Management
+    </button>
+    <div class="dropdown-menu">
+      <h5 class="dropdown-header">ProspectLeads-DataManagement</h5>
+      <a class="dropdown-item" href="#">Master Data Management</a>
+      <a class="dropdown-item" href="#">Data Licensing</a>
+      <a class="dropdown-item" href="#l">Company Profiling</a>
+      <a class="dropdown-item" href="#">Data Enhancement</a>
+      <a class="dropdown-item" href="#">Data Segimentation</a>
+    </div>
+  </div>
+
+
+      
+      <div class="dropdown mt-3">
+    <button type="button"  class="btn dropdown-toggle" data-toggle="dropdown" style="color:red;font-size: 20px;">
+     Popular List
+    </button>
+    <div class="dropdown-menu">
+      <h5 class="dropdown-header">ProspectLeads-PopularList</h5>
+      <a class="dropdown-item" href="Email-list.html">Email List</a>
+      <a class="dropdown-item" href="Technology-list.html">Technology List</a>
+      <a class="dropdown-item" href="Industry-list.html">Industry List</a>
+     <a class="dropdown-item" href="HealthCare-list.html">HealthCare</a>
+      <a class="dropdown-item" href="International-list.html">International List</a>
+    </div>
+  </div>
+      
+      
+    </ul>
+
+  </nav>
+  
+  <div class="clearfix"></div>
+  </header>
+
+  <script src="https://code.jquery.com/jquery-migrate-3.3.1.js" integrity="sha256-lGuUqJUPXJEMgQX/RRaM6mZkK6ono5i5bHuBME4qOCo=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    $('document').ready(function(){
+      $('.toggle-menu').click(function(){
+        $('.toggle-menu').toggleClass('active');
+        $('nav').toggleClass('active');
+      });
+    });
+    
+  </script>
+
+  
+
+
+<!--navigation bar end-->
+  <!--slide show begin-->
+
+
+<div class="carousel slide" id="mycarousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active">
+        
+      </li>
+      <li data-target="#mycarousel" data-slide-to="1">2</li>
+      <li data-target="#mycarousel" data-slide-to="2">3</li>
+    </ol>
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active col-lg-12 col-md-12 col-12 col-sm-12">
+        <img src="slide1.jpg" class="d-block">
+      
+    </div>
+      
+      <div class="carousel-item col-lg-12 col-md-12 col-12 col-sm-12">
+        <img src="slide2.jpg" class="d-block">
+      
+    </div>
+      
+      <div class="carousel-item col-lg-12 col-md-12 col-12 col-sm-12">
+        <img src="slide3.jpg" class="d-block">
+    
+    </div>
+    <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span></a>
+      <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+    
+    
+  </div>
+
+
+<br><br>
+
+  <!--slide show end-->
+
+<!--general Info-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 col-l2 col-md-6" id="genifno">
+        <!--icons pat-->
+        <div class="card cardgen" style="border:none";>
+        <span id="projecticon"><i class="fa fa-suitcase" style="font-size: 50px" id="genicon"></i>&nbsp;&nbsp;&nbsp;<span style="font-size: 55px; " id="num">1000+</span></span>
+        <p  id="gencon">ProjectWorks</p>
+        </div>
+
+
+      </div>
+
+      <div class="col-lg-3 col-sm-6 col-l2 col-md-6" id="genifno" >
+        <div class="card  cardgen"style="border:none;">
+        <span id="projecticon"><i class="fa fa-briefcase"  id="genicon" style="font-size: 50px"></i>&nbsp;&nbsp;      &nbsp;
+          <span style="font-size: 55px; margin:0 0 35px 20px;" id="num">30+</span>
+        </span>
+        <p  id="gencon">Expert Workers</p>
+      </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-l2 col-md-6" id="genifno" >
+        <div class="card  cardgen" style="border:none";>
+        <span id="projecticon"><i class="fa fa-user" id="genicon" style="font-size: 50px"></i>&nbsp;&nbsp;&nbsp;<span style="font-size: 55px; margin:0 0 35px 20px;"id="num" >2000+</span></span>
+        <p id="gencon">Happy Customers</p>
+      </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-l2 col-md-6" id="genifno" >
+        <div class="card  cardgen" style="border:none";>
+        <span id="projecticon" ><i class="fa fa-trophy" id="genicon" style="font-size: 50px"></i>&nbsp;&nbsp;&nbsp;<span style="font-size: 55px; margin:0 0 35px 20px;"id="num" >3000+</span></span>
+        <p  id="gencon">Repeat Bussiness</p>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+
+
+<!--general info is up to here-->
+
+<br><br>
+
+  <!--card section in body-->
+  <div class="container">
+  
+  <div class="row">
+    
+    <div class="col-lg-4 col-12 col-sm-12 col-md-6 " id="card">
+      <div class="card" style="width: 300px;box-shadow: 5px 2px 2px black;">
+        
+        <div class="card-body" >
+          <h4 class="text text-center" style="text-transform: uppercase;">
+          Marketing
+        </h4>
+          <i class="fa fa-line-chart" id="icon" style="font-size: 50px; margin-left: 70px;"></i>
+          <p class="text">
+            Being visible is the key for any business owner irrespective of the nature of the business...
+          </p>
+          <a href="Bussiness-list.html" class="btn btn-primary ">Read More</a>
+        </div>
+        
+           
+        
+      </div>
+
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-6 col-12 col-sm-12" id="card">
+      <div class="card" style="width: 300px ;box-shadow: 5px 2px 2px black;">
+        
+        <div class="card-body">
+          <h4 class="text text-center" style="text-transform: uppercase;">
+          APPENDING SERVICES 
+        </h4>
+          <i class="fa chart-line"  id="icon" style="font-size: 50px; margin-left: 70px;">&#xf140;</i>
+          <p class="text">
+            Appendstarpro has a set of Appending services to make any database work for you...
+          </p>
+          <a href="Technology-list.html" class="btn btn-primary ">Read More</a>
+        </div>
+        
+           
+        
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="col-lg-4 col-md-6 col-12 col-sm-12" id="card">
+      <div class="card" style="width: 300px ;box-shadow: 5px 2px 2px black;">
+        
+        <div class="card-body">
+          <h4 class="text text-center" style="text-transform: uppercase;">
+          HealthCare      </h4>
+          <i style="font-size:50px;padding:5px;align-items: center;margin-left: 70px;"   id="icon"class="fa bg-default" >&#xf0f1;</i>
+          <p class="text" style="text-transform: capitalize;">
+            Health care is trillion dollar industry and it’s only expected to grow multi fold...
+          </p>
+          <a href="HealthCare-list.html" class="btn btn-primary ">Read More</a>
+        </div>
+        
+           
+        
+      </div>
+
+    </div>
+
+
+
+  <div class="col-lg-4 col-md-6 col-12 col-sm-12" id="card">
+      <div class="card" style="width: 300px ;box-shadow: 5px 2px 2px black;">
+        
+        <div class="card-body"> 
+          <h4 class="text text-center" style="text-transform: uppercase;">
+          Data Management
+                </h4>
+          <i style="font-size:50px;padding:5px;align-items: center;margin-left: 70px;"  id="icon"class="fa fa-databse bg-default" >&#xf1c0;</i>
+          <p class="text" style="text-transform: capitalize;">
+            Working with our robust data-management platform, Appendstarpro helps clients gain...
+          </p>
+          <a href="DataManagement.html" class="btn btn-primary ">Read More</a>
+        </div>
+        
+           
+        
+      </div>
+
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-6 col-12 col-sm-12 " id="card">
+      <div class="card" style="width: 300px ;box-shadow: 5px 2px 2px black;">
+        
+        <div class="card-body">
+          <h4 class="text text-center" style="text-transform: uppercase;">
+          industry list
+        </h4>
+          <i class="fa fa-envelope"  id="icon" style="display;font-size: 50px;margin-left: 70px; "></i>
+          <p class="text" style="text-transform: capitalize;">
+            An email list is a collection of email addresses created by connecting with potential customers.
+          </p>
+          <a href="Email-list.html" class="btn btn-primary ">Read More</a>
+        </div>
+        
+           
+        
+      </div>
+
+    </div>
+
+<div class="col-lg-4 col-md-6 col-12 col-sm-12 " id="card">
+      <div class="card" style="width: 300px ;box-shadow: 5px 2px 2px black;">
+        
+        <div class="card-body">
+          <h4 class="text text-center" style="text-transform: uppercase;">
+            Education
+        </h4>
+          <i class="fa fa-graduation-cap"  id="icon" style="display;font-size: 50px;margin-left: 70px;"></i>
+          <p class="text" style="text-transform: capitalize;">
+            Education industry is probably the only industry which is unhurt or never disturbed..
+          </p>
+          <a href="Education-list.html" class="btn btn-primary ">Read More</a>
+        </div>
+        
+           
+        
+      </div>
+
+    </div>
+    
+</div>
+</div>
+
+
+  <!--card section end here-->
+<script type="text/javascript">
+  
+    $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  
+
+  
+</script>
+
+<br><br>
+
+
+
+<!--Form-->
+
+
+  
+<div class="container" >
+  <div class="row">
+    <br>
+    
+    <div class="col-lg-10">
+      <h2 class="text text-center" style="color:rgb(0,0,120);">Email List</h2>
+      
+      <p class="text text-dark" style="line-height: 30px;">
+       An email list is a collection of email addresses created by connecting with potential customers through lead-generating campaigns. The more people you connect with will have more impact on the business. We have experienced team of experts who compile the data which are reliable and authentic. It makes marketers to reach out to their customers easily. Email is the only channel which has overtaken every other digital channel when it comes to acquiring quality customers. We have been providing the most extensive and accurate data to the marketers successfully, which can be used for your email marketing, telemarketing and direct marketing campaigns.
+</p>
+<p class="text text-center "style="line-height: 30px;">
+Email lists will shrink as members opt out of email subscriptions. An email lists have become essential for growing your business and we make sure to constantly add fresh contacts in the email lists making it easier to reach your target market. Our professional email lists include Business List, Technology Lists, Healthcare Lists, and Industry Lists
+      </p>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<br><br><br>
+<div class="footer bg-dark">
+  <br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-12 col-sm-12 col-md-4" style="line-height:30px;">
+      
+          <h5 class="text text-primary">OUR APPEND SERVICES</h5>
+          <li style="color:white;font-style: bold; list-style-type: none;">Data Appending</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">Email Appending</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">Phone Appending</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">Contact Appending</li>
+        
+    </div>
+
+    <div class="col-lg-3  col-12 col-sm-12 col-md-4" style="line-height:30px;">
+      
+          <h5 class="text text-primary">OUR EMAIL LISTS </h5>
+          <li style="color:white;font-style: bold; list-style-type: none;">Technology List</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">Bussiness List</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">Education List</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">International List</li>
+          <li style="color:white;font-style: bold; list-style-type: none;">HealthCareList</li>
+        
+    </div>
+
+    <div class="col-lg-3  col-12 col-sm-12 col-md-4">
+      
+          <h5 class="text text-primary">GET IN TOUCH</h5>
+          <span style="color:red;" ><i class="fa fa-map-maker" style="color:blue;">&#xf041;</i>&nbsp;&nbsp;&nbsp;Adress:</span>
+          <p style="color:white;font-style: bold;">1623 Main St,Dallas,TX-75201,United States</p>
+          
+          
+          <span style="color:red;"><i class="fa fa-envelope" style="color:blue;"></i>&nbsp;&nbsp;&nbsp;Email:</span>
+          <p style="color:white;font-style: bold;">Support@prospectleads.com</p>
+          <span style="color:red;"><i class="fa fa-phone" style="color:blue;"></i>&nbsp;&nbsp;&nbsp;Phone:</span>
+          <p style="color:white;font-style: bold;">+1(850)733-7275</p>
+        
+    </div>
+
+
+    <div class="col-lg-3  col-12 col-sm-12 col-md-4" >
+      
+          <h5 class="text  text-primary">PROCEPECT LEADS </h5>
+          <img src="logo.ico" class="img-circle"width="160" height="150" style="border-radius: 75px;margin-left: 10px;align-items: center;">
+          <br><br>
+          <p class="text " style="line-height: 25px; color:white;font-style:bold;">Our team comprises socially aware, technically sound and competent individuals who are communicative and have a finger on the pulse of the business scene. We have the right blend of experience, attitude and managerial ability.</p>
+        
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-12 bg-primary" id="copy_right_sec">
+<p class="text  text-center text-warning">&copy;2020 <a href="Prospectleads.com" style="color:white;font-weight: bold;">Procespectleads.com</a>All Rights Reserved</p>
+</div>
+
+
+
+
+
+</body>
+</html>
